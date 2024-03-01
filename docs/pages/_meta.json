@@ -1,7 +1,7 @@
 {
   "index": {
     "type": "page",
-    "title": "Nextra",
+    "title": "Thrust Network",
     "display": "hidden",
     "theme": {
       "layout": "raw"
@@ -9,7 +9,7 @@
   },
   "docs": {
     "type": "page",
-    "title": "Documentation"
+    "title": "Docs"
   },
   "showcase": {
     "type": "page",
@@ -17,13 +17,6 @@
     "theme": {
       "typesetting": "article",
       "layout": "full"
-    }
-  },
-  "about": {
-    "type": "page",
-    "title": "About",
-    "theme": {
-      "typesetting": "article"
     }
   },
   "404": {
