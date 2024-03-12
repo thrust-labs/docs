@@ -11,7 +11,8 @@
     "type": "separator",
     "title": "Integrate"
   },
-  "extensions-and-widgets": "",
+  "widgets": "",
+  "extensions": "",
   "api-support": "",
   "thrust-sdk": "Thrust SDK",
   "-- More": {
