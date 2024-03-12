@@ -153,11 +153,11 @@ const config: DocsThemeConfig = {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={socialCard} />
-        <meta name="twitter:site:domain" content="nextra.site" />
-        <meta name="twitter:url" content="https://nextra.site" />
+        <meta name="twitter:site:domain" content="thrust.network" />
+        <meta name="twitter:url" content="https://docs.thrust.network" />
         <meta
           name="og:title"
-          content={title ? title + ' – Nextra' : 'Nextra'}
+          content={title ? title + ' – Thrust Network' : 'Thrust Network'}
         />
         <meta name="og:image" content={socialCard} />
         <meta name="apple-mobile-web-app-title" content="Thrust Network" />
@@ -198,7 +198,7 @@ const config: DocsThemeConfig = {
             target="_blank"
             rel="noopener noreferrer"
             title="vercel.com homepage"
-            href="https://vercel.com?utm_source=nextra.site"
+            href="https://thrust.network?utm_source=docs.thrust.network"
           >
             <span>Powered by</span>
             <img src="https://api.thrust.network/storage/v1/object/public/thrust/brand/logo-with-text.svg" alt="Thrust Network" style={{ height: 64, width: 153 }} />
