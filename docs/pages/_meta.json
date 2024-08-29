@@ -11,14 +11,6 @@
     "type": "page",
     "title": "Docs"
   },
-  "showcase": {
-    "type": "page",
-    "title": "Showcase",
-    "theme": {
-      "typesetting": "article",
-      "layout": "full"
-    }
-  },
   "404": {
     "type": "page",
     "theme": {

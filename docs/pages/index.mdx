@@ -10,6 +10,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import docsCardDark from '../public/assets/card-1.dark.png'
+import login from '../public/assets/login.png'
+import revenue from '../public/assets/revenue.png'
+import realTimeComms from '../public/assets/real-time-communication.png'
 import docsCard from '../public/assets/card-1.png'
 import styles from './index.module.css'
 
@@ -100,8 +103,8 @@ export function I18n() {
 
 <div className="home-content">
   <div className="content-container">
-    <h1 className="headline">Make beautiful web3 gaming hubs <br className='sm:block hidden'/>with Thrust Network</h1>
-    <p className="subtitle">Simple, powerful and extendable</p>
+    <h1 className="headline">Build your community onchain on web3-native Discord alternative with <br className='sm:block hidden'/>Thrust</h1>
+    <p className="subtitle">Onchain roles and assets seamlessly integrated packed in a user friendly real-time application</p>
     <p className="subtitle">
       <Link className={styles.cta} href="/docs">Get started <span>→</span></Link>
     </p>
@@ -306,39 +309,46 @@ export function I18n() {
         <Feature index={0} large centered id="docs-card" href="/docs/">
           <Image src={docsCard} alt="Background" loading="eager" />
           <Image src={docsCardDark} alt="Background (Dark)" loading="eager" />
-          <h3>Web3 Gaming Hubs of tomorrow's communities</h3>
+          <h3>Run your community onchain</h3>
         </Feature>
-        <Feature index={1} centered className="card-with-border" href="/docs/guide/marketplace">
+        <Feature index={1} centered className="card-with-border" href="/docs/guide/assets">
           <div className="h-full flex flex-col justify-between">
-            <h3>Marketplace support</h3>
-            <br/>
-            <p className='text-left mb-8'>Thrust Network integrates with over 150 web3 marketplaces and pushes your listing to all of them.</p><br/>
-            <div>
-              <div className={styles.optimization}>
-                <div style={{ fontSize: '.9rem' }} className="leading-8">
-                  <code>{`[Learn more](/more)`}</code>
-                  <br/>
-                  <code>{`![Hero](/hero.png)`}</code>
-                </div>
-              </div>
-              <ArrowRightIcon width="1.2em" className="text-neutral-400 rotate-90 my-6 mx-auto" />
-              <div className={styles.optimization}>
-                <div style={{ fontSize: '.9rem' }} className="leading-8">
-                  <code>{`<NFTs .../>`}</code>
-                  <br/>
-                  <code>{`<Items .../>`}</code>
-                </div>
-              </div>
-            </div>
+            <h3>Onchain Roles and Points</h3>
+            <p className='text-left'>Curate your onchain community through roles and points</p>
+            <p className='text-left'>Your users reputation is fully verifiable onchain and allow you to benefit from the power of your community</p>
+            <p className='text-left'>Create custom points in your own hub. Customize their utility by making them soulbound, tradable or fully redeemable for perks in your ecosystem</p>
+            <p className='text-left'>There is no limit on number of roles and points you can create for your team and community</p>
+            <p className='text-left mb-8'>🤝</p>
           </div>
         </Feature>
         <Feature index={2} id="highlighting-card" href="/docs/widgets">
-          <h3>Extensions and widgets</h3>
-          <p>Fully decentralised protocols can easily integrate their tech stack and make it accessable from within hubs</p>
+          <h3>Create tokens with no upfront liqudity required</h3>
+          <p>Spin up ERC20 tokens or ERC6909 passes for less than $1 and have them automatically available inside your hub or via API.</p>
+          <p>Powered by our AMM allows you to save cost on token liveops and market making with no liquidity required upfront.</p>
+          <p className="mb-10">All tradable assets are considered fair launch and community-first. Everyone has equal chances to buy in</p>
         </Feature>
         <Feature index={3} href="/docs/guide/i18n">
-          <h3>Customize with your branding</h3>
-          <p>Make your users feel like at home</p>
+          <h3>Real-time messagins on onchain steroids</h3>
+          <p>Spaces(Discord's channels alternative) allow you to host your members and assets in a chat like real-time environment.</p>
+          <p className="mb-8">Your team and community can interact with onchain assets via our bot directly inside their posts, or simply by dropping them with a single click by reacting to other messages </p>
+          <Image src={realTimeComms} loading="eager" />
+        </Feature>
+        <Feature index={3} href="/docs/guide/i18n">
+          <h3>Lifetime revenue for creators</h3>
+          <p>All assets traded in your hub generate 5% income for hub creators</p>
+          <p className="mb-10">And when anyone wants to incentivise your community members to explore their project, you get paid too</p>
+          <Image src={revenue} loading="eager" />
+        </Feature>
+         <Feature index={3} href="/docs/guide/i18n">
+          <h3>Easy onboarding</h3>
+          <p>All your community is an email address or social account to join you onchain.</p>
+          <p>And when their balance go low, they can top it with credit card or via integrated crosschain transfer</p>
+          <Image src={login} loading="eager" />
+        </Feature>
+        <Feature index={3} href="/docs/guide/i18n">
+          <h3>Revenue sharing with your friends</h3>
+          <p>Invite your friends and both earn 20% of Thrust fees!</p>
+          <p>And if your friend invites more people, you will be included in their revenue share too!</p>
         </Feature>
         <Feature index={4} centered style={{
           display: 'flex',

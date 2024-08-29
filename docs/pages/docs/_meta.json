@@ -1,27 +1,37 @@
 {
   "index": "Introduction",
-  "whitepaper": "",
-  "council": "",
-  "guide": "",
-  "-- Themes": {
-    "type": "separator",
-    "title": "Themes"
+  "guide": {
+    "display":"hidden"
   },
-  "hub-theme": "",
+  "hubs": "Hubs (AKA Discord Servers)",
+  "onchain-assets": "Onchain Assets",
+  "-- Examples": {
+    "type": "separator",
+    "title": "What you can build"
+  },
+  "tutorials": "Tutorials",
+  "showcase": "Showcase",
+  "-- Rewards": {
+    "type": "separator",
+    "title": "Rewards"
+  },
+  "revenue-share-program":"",
   "-- Integrate": {
     "type": "separator",
     "title": "Integrate"
   },
-  "widgets": "",
-  "extensions": "",
   "api-support": "",
   "thrust-sdk": "Thrust SDK",
+  "widgets": {
+    "type": "page",
+    "display": "hidden"
+  },
   "-- More": {
     "type": "separator",
     "title": "More"
   },
   "next.js-link": {
-    "title": "Thrust Network ↗",
+    "title": "Thrust ↗",
     "href": "https://thrust.network?utm_source=docs.thrust.network&utm_medium=referral&utm_campaign=sidebar",
     "newWindow": true
   },
