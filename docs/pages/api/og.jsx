@@ -74,7 +74,7 @@ export default async function (req) {
             letterSpacing: -1
           }}
         >
-          Curate your community onchain on web3-native Discord alternative Thrust.
+          Curate your community onchain on web3-native Discord alternative.
         </p>
         <h1
           style={{
