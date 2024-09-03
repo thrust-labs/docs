@@ -134,8 +134,8 @@ const config: DocsThemeConfig = {
     const { route } = useRouter()
     const socialCard =
       route === '/' || !title
-        ? 'https://docs.thrust.network/api/og'
-        : `https://docs.thrust.network/api/og?title=${title}`
+        ? 'https://docs-internal.thrust.network/api/og'
+        : `https://docs-internal.thrust.network/api/og?title=${title}`
 
     return (
       <>
