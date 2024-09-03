@@ -1,1 +1,1 @@
-# Thrust Network documentation
+# Thrust documentation

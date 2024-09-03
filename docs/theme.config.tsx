@@ -124,7 +124,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s – Thrust Hubs'
+        titleTemplate: '%s – Thrust'
       }
     }
   },
@@ -145,11 +145,11 @@ const config: DocsThemeConfig = {
         <meta httpEquiv="Content-Language" content="en" />
         <meta
           name="description"
-          content="Make beautiful decentralized gaming hubs with Thrust Network."
+          content="Curate your community onchain with web3-native Discord alternative Thrust"
         />
         <meta
           name="og:description"
-          content="Make beautiful decentralized gaming hubs with Thrust Network."
+          content="Curate your community onchain with web3-native Discord alternative Thrust."
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={socialCard} />
@@ -157,10 +157,10 @@ const config: DocsThemeConfig = {
         <meta name="twitter:url" content="https://docs.thrust.network" />
         <meta
           name="og:title"
-          content={title ? title + ' – Thrust Network' : 'Thrust Network'}
+          content={title ? title + ' – Thrust' : 'Thrust'}
         />
         <meta name="og:image" content={socialCard} />
-        <meta name="apple-mobile-web-app-title" content="Thrust Network" />
+        <meta name="apple-mobile-web-app-title" content="Thrust" />
         <link rel="icon" href="https://app.thrust.network/favicon.png" type="image/png" />
       </>
     )
@@ -201,7 +201,7 @@ const config: DocsThemeConfig = {
             href="https://thrust.network?utm_source=docs.thrust.network"
           >
             <span>Powered by</span>
-            <img src="https://api.thrust.network/storage/v1/object/public/thrust/brand/logo-with-text.svg" alt="Thrust Network" style={{ height: 64, width: 153 }} />
+            <img src="https://api.thrust.network/storage/v1/object/public/thrust/brand/logo-with-text.svg" alt="Thrust" style={{ height: 64, width: 153 }} />
           </a>
         </div>
         <p className="mt-6 text-xs">
