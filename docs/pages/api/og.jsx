@@ -18,7 +18,7 @@ export default async function (req) {
   const hasTitle = searchParams.has('title')
   const title = hasTitle
     ? searchParams.get('title')?.slice(0, 100)
-    : 'Thrust Network Documentation'
+    : 'Thrust - Documentation'
 
   return new ImageResponse(
     (
@@ -63,7 +63,7 @@ export default async function (req) {
             zIndex: 20000, // Above the image
           }}
         />
-        <img src="https://api.thrust.network/storage/v1/object/public/thrust/brand/logo-with-text.svg" height="90" alt="Thrust Network" style={{ position: 'absolute', top: 70, left: 80 }} />
+        <img src="https://api.thrust.network/storage/v1/object/public/thrust/brand/logo-with-text.svg" height="90" alt="Thrust" style={{ position: 'absolute', top: 70, left: 80 }} />
         <p
           style={{
             position: 'absolute',
@@ -74,7 +74,7 @@ export default async function (req) {
             letterSpacing: -1
           }}
         >
-          Create beautiful web3 gaming hubs with Thrust Network.
+          Curate your community onchain on web3-native Discord alternative Thrust.
         </p>
         <h1
           style={{
